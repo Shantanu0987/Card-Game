@@ -1,1 +1,1 @@
-# cardgame.com
+# www.cardgame.com
