@@ -3,14 +3,20 @@
  padding: 0;
  box-sizing: border-box;
  font-family: 'Times New Roman', Times, serif;
+ max-width:auto;
+ overflow: hidden;
+ height: auto;
 }
+
+
 body {
     background: url(card.jpg);
     background-size: cover;
-   
+    background-repeat:repeat;
+ 
 }
 h1{
-    color: rgb(160, 18, 18);
+    color: orangered;
     text-align: center;
     border-bottom: 2px dotted white;
 }
@@ -18,31 +24,34 @@ h1{
     text-align: center;
     font-size: larger;
     text-transform: uppercase;
-    position: relative;
+    position:fixed;
     top:-30px;
     font-weight: bolder;
+    margin-left: -100px;
 }
 
 .hello{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     font-size: larger;
     color: white;
     font-size: 25px;
 }
 .text{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     font-size: larger;
     color: white;
+    
 }
 .text input{
     width: 80px;
     height: 30px;
     font-size: larger;
     text-align: center;
-    border: 2px solid rgb(134, 4, 4);
+    border: 1px solid grey;
     border-radius: 13px;
+    flex-wrap: wrap;
 }
 .text3 input{
     width: 120px;
@@ -78,4 +87,10 @@ h3{
     width: 150px;
     height: 30px;
     font-size: larger;
-    text-align: center;}
+    text-align: center;
+    background-size: cover;
+}
+.okk{
+    display: grid;
+    gap:5px;
+}
