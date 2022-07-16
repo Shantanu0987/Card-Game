@@ -35,7 +35,7 @@ h1{
     justify-content:space-around;
     font-size: larger;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 .text{
     display: flex;
@@ -92,5 +92,5 @@ h3{
 }
 .okk{
     display: grid;
-    gap:5px;
+    gap: 15px;
 }
